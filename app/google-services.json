@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "6540767810",
+    "firebase_url": "https://rapid-chat-c9cd2.firebaseio.com",
+    "project_id": "rapid-chat-c9cd2",
+    "storage_bucket": "rapid-chat-c9cd2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6540767810:android:14253ca0e4ba1017",
+        "android_client_info": {
+          "package_name": "com.dashtechnologies.rapidchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "6540767810-4n93bn6em62a6c5s5937krh8m5jce1qf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dashtechnologies.rapidchat",
+            "certificate_hash": "0b9cd68c0fc7a598e19f546e0dce2a8387480114"
+          }
+        },
+        {
+          "client_id": "6540767810-58f27iq8ibrm3ngk7edolpmpvhdp4iua.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDS3k6S3-6Nka4-DCDMxfHCZTGE1DDU7mY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "6540767810-58f27iq8ibrm3ngk7edolpmpvhdp4iua.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
