@@ -14,7 +14,7 @@
         android:layout_above="@+id/start_login_btn"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="50dp"
-        android:text="Welcome to Lapit \n Chat App"
+        android:text="Welcome to Rapid \n Social App"
         android:textAlignment="center"
         android:textColor="@android:color/white"
         android:textSize="22sp"
@@ -43,6 +43,6 @@
         android:backgroundTint="@color/colorAccent"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
-        android:text="ALREADY HAVE ACCOUNT"
+        android:text="LOGIN"
         android:textColor="@android:color/white" />
 </RelativeLayout>
