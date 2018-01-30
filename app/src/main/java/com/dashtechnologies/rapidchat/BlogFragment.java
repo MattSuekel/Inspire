@@ -13,10 +13,10 @@ import android.widget.Button;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class RequestsFragment extends Fragment {
+public class BlogFragment extends Fragment {
 
 
-    public RequestsFragment() {
+    public BlogFragment() {
         // Required empty public constructor
     }
 
@@ -25,9 +25,9 @@ public class RequestsFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-      //  return inflater.inflate(R.layout.fragment_requests, container, false);
+      //  return inflater.inflate(R.layout.fragment_blog, container, false);
 
-        View view = inflater.inflate(R.layout.fragment_requests,
+        View view = inflater.inflate(R.layout.fragment_blog,
                 container, false);
         Button button = (Button) view.findViewById(R.id.button2);
         button.setOnClickListener(new View.OnClickListener()
