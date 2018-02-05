@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="google_play_app_link" translatable="false">https://play.google.com/store/apps/details?id=vladyslavpohrebniakov.depressingthoughts</string>
+    <string name="twitter_depressing_thoughts_author_link" translatable="false">https://twitter.com/Time4Depression</string>
+    <string name="google_play_dev_page_link" translatable="false">https://play.google.com/store/apps/dev?id=5916021916323754001</string>
+
+    <string name="key_licenses_pref" translatable="false">key_licenses</string>
+    <string name="key_particles_pref" translatable="false">key_particles</string>
+    <string name="key_themes_pref" translatable="false">key_themes_pref</string>
+    <string name="key_rate_pref" translatable="false">key_rate_pref</string>
+    <string name="pref_key_font" translatable="false">pref_key_font</string>
+    <string name="pref_key_textsize" translatable="false">pref_key_textsize</string>
+    <string name="pref_key_textsize_widget" translatable="false">pref_key_textsize_widget</string>
+    <string name="key_twi_pref" translatable="false">key_twi_pref</string>
+    <string name="key_dev_page_pref" translatable="false">key_dev_page_pref</string>
+
+    <string-array name="pref_font_list_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="pref_textsize_values">
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20</item>
+        <item>22</item>
+        <item>24</item>
+        <item>26</item>
+        <item>28</item>
+        <item>30</item>
+        <item>32</item>
+        <item>34</item>
+        <item>36</item>
+    </string-array>
+</resources>

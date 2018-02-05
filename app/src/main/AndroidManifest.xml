@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.dashtechnologies.rapidchat">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -62,6 +65,39 @@
             android:name=".PostActivity"
             android:screenOrientation="portrait"
             android:parentActivityName=".PostActivity" />
+
+
+        <activity
+            android:name=".activities.MainTwitterActivity"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".activities.MainTwitterActivity" />
+        <activity
+            android:name=".activities.SettingsActivity"
+            android:label="@string/settings"
+            android:parentActivityName=".activities.MainTwitterActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.dashtechnologies.rapidchat.activities.MainTwitterActivity" />
+        </activity>
+        <activity
+            android:name=".activities.AppWidgetConfigureActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".appwidget.AppWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/app_widget_info" />
+        </receiver>
+
+
     </application>
 
 </manifest>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<notices>
+    <notice>
+        <name>Depressing Thoughts (This app)</name>
+        <copyright>Copyright 2017 Vladyslav Pohrebniakov</copyright>
+        <license>Apache Software License 2.0</license>
+        <url>https://github.com/personaljesusua/DepressingThoughts</url>
+    </notice>
+    <notice>
+        <name>Retrofit</name>
+        <copyright>Copyright 2013 Square, Inc.</copyright>
+        <license>Apache Software License 2.0</license>
+        <url>https://github.com/square/retrofit</url>
+    </notice>
+    <notice>
+        <name>ParticlesDrawable</name>
+        <copyright>Copyright 2017 Yaroslav Mytkalyk</copyright>
+        <license>Apache Software License 2.0</license>
+        <url>https://github.com/Doctoror/ParticlesDrawable</url>
+    </notice>
+    <notice>
+        <name>LicensesDialog</name>
+        <copyright>Copyright 2013-2017 Philip Schiffer</copyright>
+        <license>Apache Software License 2.0</license>
+        <url>https://github.com/PSDev/LicensesDialog</url>
+    </notice>
+</notices>

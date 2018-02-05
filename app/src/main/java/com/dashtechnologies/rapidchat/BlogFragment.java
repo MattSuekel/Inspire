@@ -9,6 +9,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
+import com.dashtechnologies.rapidchat.activities.MainTwitterActivity;
+
 
 /**
  * A simple {@link Fragment} subclass.
@@ -29,17 +31,24 @@ public class BlogFragment extends Fragment {
 
         View view = inflater.inflate(R.layout.fragment_blog,
                 container, false);
-        Button button = (Button) view.findViewById(R.id.button2);
-        button.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View v)
-            {
-                startActivity(new Intent(getActivity(), BlogActivity.class));
-            }
-        });
+        view.findViewById(R.id.button2).setOnClickListener(mListener);
+        view.findViewById(R.id.btweet).setOnClickListener(mListener);
+
         return view;
 
     }
+
+    private final View.OnClickListener mListener = new View.OnClickListener() {
+        public void onClick(View view) {
+            switch (view.getId()) {
+                case R.id.button2:
+                    startActivity(new Intent(getActivity(), BlogActivity.class));
+                    break;
+                case R.id.btweet:
+                    startActivity(new Intent(getActivity(), MainTwitterActivity.class));
+                    break;
+            }
+        }
+    };
 
 }

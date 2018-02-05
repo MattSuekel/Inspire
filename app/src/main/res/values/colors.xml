@@ -28,4 +28,38 @@
     <color name="blue_semi_transparent">#805677fc</color>
     <color name="blue_semi_transparent_pressed">#80738ffe</color>
 
+    <color name="colorPrimaryLight">#CFD8DC</color>
+
+    <color name="colorParticles">#f48fb1</color>
+
+    <color name="colorPrimaryTextL">#212121</color>
+    <color name="colorSecondaryTextL">#757575</color>
+    <color name="ic_launcher_background">#F6F6F6</color>
+
+
+    <color name="colorPrimaryD">#212121</color>
+    <color name="colorPrimaryDarkD">#181818</color>
+    <color name="colorPrimaryTextD">#ffffff</color>
+    <color name="colorPrimaryLightD">#757575</color>
+    <color name="colorParticlesD">#ffadc8</color>
+    <color name="colorSecondaryTextD">#bdbdbd</color>
+
+    <color name="colorWidgetDark">#243341</color>
+    <color name="colorWidgetLight">#fafafa</color>
+    <color name="colorWidgetTranslucentDark">#59000000</color>
+    <color name="colorWidgetTranslucentLight">#50fafafa</color>
+    <color name="colorWidgetYellow">#ffd600</color>
+    <color name="colorWidgetRed">#f44336</color>
+    <color name="colorWidgetPurple">#9C27B0</color>
+    <color name="colorWidgetBlue">#2196F3</color>
+    <color name="colorWidgetCyan">#00BCD4</color>
+    <color name="colorWidgetTeal">#009688</color>
+    <color name="colorWidgetOrange">#FF9800</color>
+    <color name="colorWidgetBrown">#795548</color>
+    <color name="colorWidgetGrey">#9E9E9E</color>
+    <color name="colorWidgetBlueGrey">#607D8B</color>
+    <color name="colorWidgetIndigo">#3F51B5</color>
+    <color name="colorWidgetGreen">#4CAF50</color>
+
+
 </resources>

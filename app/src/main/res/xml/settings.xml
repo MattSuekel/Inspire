@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/title_look_category_pref">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:icon="@drawable/ic_particles"
+            android:key="@string/key_particles_pref"
+            android:title="@string/title_particles_pref" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:icon="@drawable/ic_colors"
+            android:key="@string/key_themes_pref"
+            android:title="@string/pref_title_themes" />
+
+        <ListPreference
+            android:defaultValue="4"
+            android:entries="@array/pref_font_list_titles"
+            android:entryValues="@array/pref_font_list_values"
+            android:icon="@drawable/ic_font"
+            android:key="@string/pref_key_font"
+            android:title="@string/pref_title_font" />
+
+        <ListPreference
+            android:defaultValue="24"
+            android:entries="@array/pref_textsize_values"
+            android:entryValues="@array/pref_textsize_values"
+            android:icon="@drawable/ic_text_size"
+            android:key="@string/pref_key_textsize"
+            android:title="@string/text_size_title" />
+
+        <ListPreference
+            android:defaultValue="20"
+            android:entries="@array/pref_textsize_values"
+            android:entryValues="@array/pref_textsize_values"
+            android:icon="@drawable/ic_text_size"
+            android:key="@string/pref_key_textsize_widget"
+            android:title="@string/text_size_title_widget" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/title_about_category_pref">
+
+        <Preference
+            android:icon="@drawable/ic_licenses"
+            android:key="@string/key_licenses_pref"
+            android:title="@string/title_licenses_pref" />
+
+        <Preference
+            android:icon="@drawable/ic_person_pin"
+            android:key="@string/key_dev_page_pref"
+            android:summary="@string/summary_developer_pref"
+            android:title="@string/title_developer_pref" />
+
+        <Preference
+            android:icon="@drawable/ic_person_pin"
+            android:key="@string/key_twi_pref"
+            android:summary="@string/summary_twitter_author_pref"
+            android:title="@string/title_twitter_author_pref" />
+
+        <Preference
+            android:icon="@drawable/ic_rate_review"
+            android:key="@string/key_rate_pref"
+            android:title="@string/pref_title_rate_the_app" />
+
+        <Preference
+            android:selectable="false"
+            android:summary="@string/summary_about_pref" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

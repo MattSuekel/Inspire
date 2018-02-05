@@ -133,4 +133,86 @@
         <string name="section_format">Hello World from section: %1$d</string>
 
 
+
+
+
+
+
+
+
+
+    <string name="settings">Settings</string>
+    <string name="share">Share</string>
+
+    <string name="test">Something</string>
+
+    <string name="tap_here">Tap here to
+                            \n read another depressing thought</string>
+
+    <string name="title_developer_pref">Developer</string>
+    <string name="summary_developer_pref">Vladyslav Pohrebniakov</string>
+    <string name="summary_twitter_author_pref">\@Time4Depression</string>
+    <string name="title_twitter_author_pref">Depressing thoughts by Twitter account</string>
+    <string name="title_licenses_pref">Open source licenses</string>
+    <string name="title_particles_pref">Show particles in background</string>
+    <string name="title_about_category_pref">About</string>
+    <string name="title_look_category_pref">Look</string>
+    <string name="summary_about_pref">This is humor app. Don\'t be depressed.</string>
+
+    <string name="no_internet">Is your Internet depressed too? Check its connection.</string>
+
+    <string name="appwidget_text_loading">Loading…</string>
+    <string name="next">Next</string>
+    <string name="add_widget">Add widget</string>
+    <string name="configure_app_widget_background_color">Background color</string>
+    <string name="configure_app_widget_button_color">Button text color</string>
+    <string name="configure_app_widget_text_color">Text color</string>
+    <string name="preview_widget">Preview</string>
+    <string name="preview_widget_text">Depressed widget</string>
+    <string name="preview_widget_button">Depressed button</string>
+    <string name="pref_title_themes">Use dark theme</string>
+    <string name="pref_title_rate_the_app">Rate this app</string>
+    <string name="pref_title_font">Font</string>
+    <string name="text_size_title">Text size</string>
+    <string name="text_size_title_widget">Text size of widget</string>
+    <string name="send_to">Share</string>
+
+    <string-array name="pref_font_list_titles">
+        <item>monospace</item>
+        <item>casual</item>
+        <item>cursive</item>
+        <item>sans-serif</item>
+        <item>sans-serif-condensed</item>
+        <item>sans-serif-smallcaps</item>
+        <item>serif</item>
+        <item>serif-monospace</item>
+    </string-array>
+    <string-array name="widget_colors">
+        <item>Dark</item>
+        <item>Light</item>
+        <item>Transparent</item>
+        <item>Translucent Dark</item>
+        <item>Translucent Light</item>
+        <item>Pink</item>
+        <item>Yellow</item>
+        <item>Black</item>
+        <item>White</item>
+        <item>Red</item>
+        <item>Purple</item>
+        <item>Blue</item>
+        <item>Cyan</item>
+        <item>Teal</item>
+        <item>Orange</item>
+        <item>Brown</item>
+        <item>Grey</item>
+        <item>Blue Grey</item>
+        <item>Indigo</item>
+        <item>Green</item>
+    </string-array>
+
+
+
+
+
+
 </resources>
