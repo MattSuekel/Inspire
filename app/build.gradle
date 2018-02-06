@@ -75,6 +75,13 @@ dependencies {
     compile 'com.github.doctoror.particlesdrawable:library:1.0.8'
     compile 'de.psdev.licensesdialog:licensesdialog:1.8.3'
 
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+
+    implementation 'com.github.bumptech.glide:glide:4.0.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.0.0'
+    implementation 'com.google.firebase:firebase-firestore:11.8.0'
+
 }
 
 apply plugin: 'com.google.gms.google-services'
