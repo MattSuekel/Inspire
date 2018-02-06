@@ -4,18 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/darkColor"
+    android:background="@mipmap/background"
     tools:context="com.dashtechnologies.rapidchat.ProfileActivity">
 
-    <ImageView
+
+    <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/profile_image"
-        android:layout_width="match_parent"
-        android:layout_height="220dp"
-        android:layout_alignParentStart="true"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
         android:layout_alignParentTop="true"
-        android:adjustViewBounds="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
         android:scaleType="centerCrop"
-        app:srcCompat="@drawable/default_avatar" />
+        android:src="@drawable/default_avatar" />
 
     <TextView
         android:id="@+id/profile_displayName"
@@ -50,14 +51,14 @@
         android:textColor="@android:color/white"
         android:textSize="16sp" />
 
-    <Button
+  <!--  <Button
         android:id="@+id/profile_send_req_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/profile_decline_btn"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="12dp"
-        android:backgroundTint="@color/colorAccent"
+        android:backgroundTint="@drawable/border_button"
         android:text="SEND FRIEND REQUEST"
         android:textColor="@android:color/white" />
 
@@ -70,6 +71,37 @@
         android:layout_marginBottom="20dp"
         android:backgroundTint="@color/colorAccent"
         android:text="DECLINE FRIEND REQUEST"
-        android:textColor="@android:color/white" />
+        android:textColor="@android:color/white" />  -->
+
+    <Button
+        android:id="@+id/profile_send_req_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/border_button"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="SEND FRIEND REQUEST"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/profile_decline_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/profile_send_req_btn"
+        android:layout_alignEnd="@+id/profile_send_req_btn"
+        android:layout_alignStart="@+id/profile_send_req_btn"
+        android:layout_marginBottom="11dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input_background"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:text="DECLINE FRIEND REQUEST"
+        android:textColor="@color/colorPrimary" />
 
 </RelativeLayout>

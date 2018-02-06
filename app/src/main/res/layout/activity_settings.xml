@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimaryDark"
+    android:background="@mipmap/background"
     tools:context="com.dashtechnologies.rapidchat.SettingsActivity">
 
     <de.hdodenhof.circleimageview.CircleImageView
@@ -29,25 +29,30 @@
 
     <Button
         android:id="@+id/settings_status_btn"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="30dp"
-        android:backgroundTint="@color/colorAccent"
+        android:background="@drawable/border_button"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
         android:text="CHANGE STATUS"
-        android:textColor="@android:color/white" />
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"/>
 
     <Button
         android:id="@+id/settings_image_btn"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@+id/settings_status_btn"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="10dp"
-        android:backgroundTint="@android:color/white"
+        android:layout_alignEnd="@+id/settings_status_btn"
+        android:layout_alignStart="@+id/settings_status_btn"
+        android:layout_marginBottom="11dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input_background"
         android:paddingLeft="25dp"
         android:paddingRight="25dp"
         android:text="CHANGE IMAGE"
