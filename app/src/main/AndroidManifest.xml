@@ -12,75 +12,67 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-    <service android:name=".FirebaseMessagingService">
-        <intent-filter>
-            <action android:name="com.google.firebase.MESSAGING_EVENT" />
-        </intent-filter>
-    </service>
-
+        <service android:name=".FirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
 
         <activity
             android:name=".MainActivity"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
+        <activity android:name=".Splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-
-    <activity android:name=".Splashscreen">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-    </activity>
-
-
-
-
-    <activity android:name=".StartActivity" />
-    <activity
-        android:name=".RegisterActivity"
-        android:screenOrientation="portrait"
-        android:parentActivityName=".StartActivity" />
-    <activity
-        android:name=".LoginActivity"
-        android:screenOrientation="portrait"
-        android:parentActivityName=".StartActivity" />
-    <activity android:name=".SettingsActivity" />
-    <activity
-        android:name=".StatusActivity"
-        android:screenOrientation="portrait"
-        android:parentActivityName=".SettingsActivity" />
-    <activity
-        android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
-        android:screenOrientation="portrait"
-        android:theme="@style/Base.Theme.AppCompat" />
-    <activity
-        android:name=".UsersActivity"
-        android:screenOrientation="portrait"
-        android:parentActivityName=".MainActivity" />
-    <activity android:name=".ProfileActivity">
-        <intent-filter>
-            <action android:name="in.tvac.akshaye.lapitchat_TARGET_NOTIFICATION" />
-
-            <category android:name="android.intent.category.DEFAULT" />
-        </intent-filter>
-    </activity>
-        <activity android:name=".ChatActivity"
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".StartActivity" />
+        <activity
+            android:name=".RegisterActivity"
+            android:parentActivityName=".StartActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginActivity"
+            android:parentActivityName=".StartActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".SettingsActivity" />
+        <activity
+            android:name=".StatusActivity"
+            android:parentActivityName=".SettingsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
             android:screenOrientation="portrait"
-            android:parentActivityName=".MainActivity"></activity>
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity
+            android:name=".UsersActivity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ProfileActivity">
+            <intent-filter>
+                <action android:name="in.tvac.akshaye.lapitchat_TARGET_NOTIFICATION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ChatActivity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".BlogActivity"
-            android:screenOrientation="portrait"
-            android:parentActivityName=".BlogActivity" />
+            android:parentActivityName=".BlogActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".PostActivity"
-            android:screenOrientation="portrait"
-            android:parentActivityName=".PostActivity" />
-
-
+            android:parentActivityName=".PostActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".activities.MainTwitterActivity"
-            android:screenOrientation="portrait"
-            android:parentActivityName=".activities.MainTwitterActivity" />
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".activities.SettingsActivity"
             android:label="@string/settings"
@@ -97,10 +89,20 @@
             </intent-filter>
         </activity>
 
+
+        <activity
+            android:name=".NavigationActivity"
+            android:label="@string/title_activity_navigation"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
         <receiver android:name=".appwidget.AppWidget">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
+
+
 
             <meta-data
                 android:name="android.appwidget.provider"
