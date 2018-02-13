@@ -10,28 +10,28 @@
             android:title="Home" />
         <item
             android:id="@+id/nav_feed"
-            android:icon="@drawable/ic_twitter_black_48dp"
+            android:icon="@drawable/ic_clipboard_text_black_48dp"
             android:title="Feed" />
         <item
             android:id="@+id/nav_tweet"
             android:icon="@drawable/ic_twitter_black_48dp"
             android:title="Motivational Tweets" />
         <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:id="@+id/nav_account"
+            android:icon="@drawable/ic_person_pin"
+            android:title="Account Settings" />
     </group>
 
     <item android:title="Communicate">
         <menu>
             <item
-                android:id="@+id/nav_logout"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Logout" />
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Settings" />
             <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout_black_48dp"
+                android:title="Logout" />
         </menu>
     </item>
 

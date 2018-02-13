@@ -31,19 +31,19 @@
             android:key="@string/pref_key_textsize"
             android:title="@string/text_size_title" />
 
-        <ListPreference
+      <!--  <ListPreference
             android:defaultValue="20"
             android:entries="@array/pref_textsize_values"
             android:entryValues="@array/pref_textsize_values"
             android:icon="@drawable/ic_text_size"
             android:key="@string/pref_key_textsize_widget"
-            android:title="@string/text_size_title_widget" />
+            android:title="@string/text_size_title_widget" /> -->
 
     </PreferenceCategory>
 
     <PreferenceCategory android:title="@string/title_about_category_pref">
 
-        <Preference
+  <!--      <Preference
             android:icon="@drawable/ic_licenses"
             android:key="@string/key_licenses_pref"
             android:title="@string/title_licenses_pref" />
@@ -52,7 +52,7 @@
             android:icon="@drawable/ic_person_pin"
             android:key="@string/key_dev_page_pref"
             android:summary="@string/summary_developer_pref"
-            android:title="@string/title_developer_pref" />
+            android:title="@string/title_developer_pref" />  -->
 
         <Preference
             android:icon="@drawable/ic_person_pin"
@@ -60,14 +60,14 @@
             android:summary="@string/summary_twitter_author_pref"
             android:title="@string/title_twitter_author_pref" />
 
-        <Preference
+  <!--      <Preference
             android:icon="@drawable/ic_rate_review"
             android:key="@string/key_rate_pref"
             android:title="@string/pref_title_rate_the_app" />
 
         <Preference
             android:selectable="false"
-            android:summary="@string/summary_about_pref" />
+            android:summary="@string/summary_about_pref" />  -->
 
     </PreferenceCategory>
 

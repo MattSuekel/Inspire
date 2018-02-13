@@ -135,18 +135,18 @@
 
     <string name="test">Something</string>
 
-    <string name="tap_here">Tap here to
-                            \n read another depressing thought</string>
+    <string name="tap_here">Tap here to read
+                            \n another inspirational quote</string>
 
     <string name="title_developer_pref">Developer</string>
     <string name="summary_developer_pref">Vladyslav Pohrebniakov</string>
-    <string name="summary_twitter_author_pref">\@Time4Depression</string>
-    <string name="title_twitter_author_pref">Depressing thoughts by Twitter account</string>
+    <string name="summary_twitter_author_pref">\@InspowerMinds</string>
+    <string name="title_twitter_author_pref">Inspirational Quotes by Twitter account</string>
     <string name="title_licenses_pref">Open source licenses</string>
     <string name="title_particles_pref">Show particles in background</string>
     <string name="title_about_category_pref">About</string>
     <string name="title_look_category_pref">Look</string>
-    <string name="summary_about_pref">This is humor app. Don\'t be depressed.</string>
+    <string name="summary_about_pref">Get inspired kid</string>
 
     <string name="no_internet">Is your Internet depressed too? Check its connection.</string>
 

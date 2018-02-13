@@ -14,13 +14,20 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
 
 import com.dashtechnologies.rapidchat.activities.MainTwitterActivity;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ServerValue;
+import com.squareup.picasso.Callback;
+import com.squareup.picasso.NetworkPolicy;
+import com.squareup.picasso.Picasso;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -32,6 +39,8 @@ public class MainActivity extends AppCompatActivity
     private SectionsPagerAdapter mSectionsPagerAdapter;
 
     private DatabaseReference mUserRef;
+
+
 
     private TabLayout mTabLayout;
 
@@ -67,8 +76,6 @@ public class MainActivity extends AppCompatActivity
         mTabLayout.setupWithViewPager(mViewPager);
 
 
-
-
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -88,7 +95,11 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
+
+
     }
+
+
 
     @Override
     public void onBackPressed() {
@@ -153,6 +164,7 @@ public class MainActivity extends AppCompatActivity
     }
 
 
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         super.onOptionsItemSelected(item);
@@ -194,23 +206,28 @@ public class MainActivity extends AppCompatActivity
             // Handle the camera action
         } else if (id == R.id.nav_feed) {
 
-            Intent startIntent = new Intent(MainActivity.this, MainTwitterActivity.class);
+            Intent startIntent = new Intent(MainActivity.this, BlogActivity.class);
             startActivity(startIntent);
             finish();
 
         } else if (id == R.id.nav_tweet) {
 
+            Intent startIntent = new Intent(MainActivity.this, MainTwitterActivity.class);
+            startActivity(startIntent);
+            finish();
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.nav_account) {
+            Intent startIntent = new Intent(MainActivity.this, SettingsActivity.class);
+            startActivity(startIntent);
+            finish();
+        } else if (id == R.id.nav_settings) {
 
-        } else if (id == R.id.nav_logout) {
+        }   else if (id == R.id.nav_logout) {
 
             mUserRef.child("online").setValue(ServerValue.TIMESTAMP);
 
             FirebaseAuth.getInstance().signOut();
             sendToStart();
-
-        } else if (id == R.id.nav_send) {
 
         }
 

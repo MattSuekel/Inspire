@@ -17,6 +17,8 @@ import com.squareup.picasso.Picasso;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
+import static android.support.v4.app.NavUtils.navigateUpFromSameTask;
+
 public class UsersActivity extends AppCompatActivity {
 
     private Toolbar mToolbar;
@@ -47,6 +49,11 @@ public class UsersActivity extends AppCompatActivity {
         mUsersList.setLayoutManager(mLayoutManager);
 
 
+    }
+
+    @Override
+    public void onBackPressed() {
+        navigateUpFromSameTask(this);
     }
 
     @Override

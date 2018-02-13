@@ -86,11 +86,11 @@ public class NavigationActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_tweet) {
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.nav_account) {
 
         } else if (id == R.id.nav_logout) {
 
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.nav_settings) {
 
         }
 

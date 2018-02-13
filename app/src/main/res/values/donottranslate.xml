@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="google_play_app_link" translatable="false">https://play.google.com/store/apps/details?id=vladyslavpohrebniakov.depressingthoughts</string>
-    <string name="twitter_depressing_thoughts_author_link" translatable="false">https://twitter.com/Time4Depression</string>
-    <string name="google_play_dev_page_link" translatable="false">https://play.google.com/store/apps/dev?id=5916021916323754001</string>
+   <!-- <string name="google_play_app_link" translatable="false">https://play.google.com/store/apps/details?id=vladyslavpohrebniakov.depressingthoughts</string>  -->
+    <string name="twitter_inspirational_quotes_author_link" translatable="false">https://twitter.com/InspowerMinds</string>
+   <!-- <string name="google_play_dev_page_link" translatable="false">https://play.google.com/store/apps/dev?id=5916021916323754001</string> -->
 
     <string name="key_licenses_pref" translatable="false">key_licenses</string>
     <string name="key_particles_pref" translatable="false">key_particles</string>

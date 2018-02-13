@@ -23,7 +23,6 @@ import android.preference.Preference;
 import android.preference.PreferenceFragment;
 import android.support.v7.app.AppCompatActivity;
 
-import de.psdev.licensesdialog.LicensesDialog;
 import com.dashtechnologies.rapidchat.R;
 
 import static android.support.v4.app.NavUtils.navigateUpFromSameTask;
@@ -47,35 +46,35 @@ public class SettingsActivity extends AppCompatActivity {
             super.onCreate(savedInstanceState);
             addPreferencesFromResource(R.xml.settings);
 
-            CharSequence keyLicenses = getResources().getString(R.string.key_licenses_pref);
-            Preference licensesPref = getPreferenceScreen().findPreference(keyLicenses);
-            licensesPref.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
-                @Override
-                public boolean onPreferenceClick(Preference preference) {
-                    new LicensesDialog.Builder(getActivity())
-                            .setNotices(R.raw.notices)
-                            .build()
-                            .show();
+            //CharSequence keyLicenses = getResources().getString(R.string.key_licenses_pref);
+            //Preference licensesPref = getPreferenceScreen().findPreference(keyLicenses);
+            //licensesPref.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
+             //   @Override
+               // public boolean onPreferenceClick(Preference preference) {
+                 //   new LicensesDialog.Builder(getActivity())
+                   //         .setNotices(R.raw.notices)
+                     //       .build()
+                       //     .show();
 
-                    return false;
-                }
-            });
+                    //return false;
+                //}
+            //});
 
-            CharSequence keyRate = getResources().getString(R.string.key_rate_pref);
-            Preference ratePref = getPreferenceScreen().findPreference(keyRate);
-            final String googlePlayAppLink = getResources().getString(R.string.google_play_app_link);
-            ratePref.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
-                @Override
-                public boolean onPreferenceClick(Preference preference) {
-                    Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(googlePlayAppLink));
-                    startActivity(i);
-                    return true;
-                }
-            });
+            //CharSequence keyRate = getResources().getString(R.string.key_rate_pref);
+            //Preference ratePref = getPreferenceScreen().findPreference(keyRate);
+            //final String googlePlayAppLink = getResources().getString(R.string.google_play_app_link);
+            //ratePref.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
+                //@Override
+                //public boolean onPreferenceClick(Preference preference) {
+                  //  Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(googlePlayAppLink));
+                //    startActivity(i);
+              //      return true;
+            //    }
+            //});
 
             CharSequence keyTwi = getResources().getString(R.string.key_twi_pref);
             Preference twiPref = getPreferenceScreen().findPreference(keyTwi);
-            final String twitterLink = getResources().getString(R.string.twitter_depressing_thoughts_author_link);
+            final String twitterLink = getResources().getString(R.string.twitter_inspirational_quotes_author_link);
             twiPref.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
                 @Override
                 public boolean onPreferenceClick(Preference preference) {
@@ -85,17 +84,17 @@ public class SettingsActivity extends AppCompatActivity {
                 }
             });
 
-            CharSequence keyDevPage = getResources().getString(R.string.key_dev_page_pref);
-            Preference devPagePref = getPreferenceScreen().findPreference(keyDevPage);
-            final String googlePlayDevPageLink = getResources().getString(R.string.google_play_dev_page_link);
-            devPagePref.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
-                @Override
-                public boolean onPreferenceClick(Preference preference) {
-                    Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(googlePlayDevPageLink));
-                    startActivity(i);
-                    return true;
-                }
-            });
+       //     CharSequence keyDevPage = getResources().getString(R.string.key_dev_page_pref);
+         //   Preference devPagePref = getPreferenceScreen().findPreference(keyDevPage);
+           // final String googlePlayDevPageLink = getResources().getString(R.string.google_play_dev_page_link);
+            //devPagePref.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
+               // @Override
+              //  public boolean onPreferenceClick(Preference preference) {
+              //      Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(googlePlayDevPageLink));
+                //    startActivity(i);
+                  //  return true;
+            //    }
+            //});
         }
     }
 }

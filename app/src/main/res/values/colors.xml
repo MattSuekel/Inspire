@@ -15,7 +15,7 @@
     <color name="divider">#B6B6B6</color>
     <color name="text_color">#FFFFFF</color>
     <color name="text_color_icon">#212121</color>
-    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorBackground">#ffffff</color>
     <color name="gray">#FFFFFF</color>
 
     <color name="black_semi_transparent">#B2000000</color>
