@@ -5,7 +5,7 @@ xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
 android:background="@mipmap/background"
-tools:context="com.dashtechnologies.rapidchat.LoginActivity">
+tools:context="com.dashtechnologies.inspire.LoginActivity">
 
 <TextView
     android:id="@+id/register_heading"
@@ -16,7 +16,7 @@ tools:context="com.dashtechnologies.rapidchat.LoginActivity">
     android:layout_marginLeft="50dp"
     android:layout_marginRight="50dp"
     android:layout_marginTop="100dp"
-    android:text="Welcome to RapidChat"
+    android:text="Welcome to Inspire"
     android:textAlignment="center"
     android:textColor="@android:color/white"
     android:textSize="24sp" />

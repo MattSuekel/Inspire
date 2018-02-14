@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">RapidChat</string>
+    <string name="app_name">Inspire</string>
     <string name="need_a_new_account">REGISTER</string>
     <string name="display_name">Display Name</string>
     <string name="email">Email</string>

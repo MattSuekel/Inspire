@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ededed"
-    tools:context="com.dashtechnologies.rapidchat.ChatActivity">
+    tools:context="com.dashtechnologies.inspire.ChatActivity">
 
     <include
         android:id="@+id/chat_app_bar"

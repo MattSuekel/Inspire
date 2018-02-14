@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.dashtechnologies.rapidchat">
+    package="com.dashtechnologies.inspire">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -12,45 +12,45 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <service android:name=".FirebaseMessagingService">
+        <service android:name="com.dashtechnologies.inspire.FirebaseMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
 
         <activity
-            android:name=".Splashscreen"
+            android:name="com.dashtechnologies.inspire.Splashscreen"
             android:screenOrientation="portrait" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.dashtechnologies.inspire.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".StartActivity" />
+        <activity android:name="com.dashtechnologies.inspire.StartActivity" />
         <activity
-            android:name=".RegisterActivity"
-            android:parentActivityName=".StartActivity"
+            android:name="com.dashtechnologies.inspire.RegisterActivity"
+            android:parentActivityName="com.dashtechnologies.inspire.StartActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".LoginActivity"
-            android:parentActivityName=".StartActivity"
+            android:name="com.dashtechnologies.inspire.LoginActivity"
+            android:parentActivityName="com.dashtechnologies.inspire.StartActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".SettingsActivity" />
+        <activity android:name="com.dashtechnologies.inspire.SettingsActivity" />
         <activity
-            android:name=".StatusActivity"
-            android:parentActivityName=".SettingsActivity"
+            android:name="com.dashtechnologies.inspire.StatusActivity"
+            android:parentActivityName="com.dashtechnologies.inspire.SettingsActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Base.Theme.AppCompat" />
         <activity
-            android:name=".UsersActivity"
-            android:parentActivityName=".MainActivity"
+            android:name="com.dashtechnologies.inspire.UsersActivity"
+            android:parentActivityName="com.dashtechnologies.inspire.MainActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".ProfileActivity">
+        <activity android:name="com.dashtechnologies.inspire.ProfileActivity">
             <intent-filter>
                 <action android:name="in.tvac.akshaye.lapitchat_TARGET_NOTIFICATION" />
 
@@ -58,42 +58,42 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ChatActivity"
-            android:parentActivityName=".MainActivity"
+            android:name="com.dashtechnologies.inspire.ChatActivity"
+            android:parentActivityName="com.dashtechnologies.inspire.MainActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".BlogActivity"
-            android:parentActivityName=".BlogActivity"
+            android:name="com.dashtechnologies.inspire.BlogActivity"
+            android:parentActivityName="com.dashtechnologies.inspire.BlogActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".PostActivity"
-            android:parentActivityName=".PostActivity"
+            android:name="com.dashtechnologies.inspire.PostActivity"
+            android:parentActivityName="com.dashtechnologies.inspire.PostActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activities.MainTwitterActivity"
-            android:parentActivityName=".MainActivity"
+            android:name="com.dashtechnologies.inspire.activities.MainTwitterActivity"
+            android:parentActivityName="com.dashtechnologies.inspire.MainActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activities.SettingsActivity"
+            android:name="com.dashtechnologies.inspire.activities.SettingsActivity"
             android:label="@string/settings"
-            android:parentActivityName=".activities.MainTwitterActivity">
+            android:parentActivityName="com.dashtechnologies.inspire.activities.MainTwitterActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.dashtechnologies.rapidchat.activities.MainTwitterActivity" />
+                android:value="com.dashtechnologies.inspire.activities.MainTwitterActivity" />
         </activity>
         <activity
-            android:name=".activities.AppWidgetConfigureActivity"
+            android:name="com.dashtechnologies.inspire.activities.AppWidgetConfigureActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".NavigationActivity"
+            android:name="com.dashtechnologies.inspire.NavigationActivity"
             android:label="@string/title_activity_navigation"
             android:theme="@style/AppTheme"></activity>
 
-        <receiver android:name=".appwidget.AppWidget">
+        <receiver android:name="com.dashtechnologies.inspire.appwidget.AppWidget">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>

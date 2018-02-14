@@ -15,10 +15,62 @@
       },
       "oauth_client": [
         {
+          "client_id": "6540767810-tesfb08ul9525rlfd5ejsql3t6ol1rg3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dashtechnologies.rapidchat",
+            "certificate_hash": "85c2ca79b0319f6e0a3489598fbf8531ac8aae09"
+          }
+        },
+        {
           "client_id": "6540767810-4n93bn6em62a6c5s5937krh8m5jce1qf.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.dashtechnologies.rapidchat",
+            "certificate_hash": "0b9cd68c0fc7a598e19f546e0dce2a8387480114"
+          }
+        },
+        {
+          "client_id": "6540767810-58f27iq8ibrm3ngk7edolpmpvhdp4iua.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDS3k6S3-6Nka4-DCDMxfHCZTGE1DDU7mY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "6540767810-58f27iq8ibrm3ngk7edolpmpvhdp4iua.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6540767810:android:2494ba73ab9500d7",
+        "android_client_info": {
+          "package_name": "com.dashtechnologies.inspire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "6540767810-dici1mrku096a8717m4cvdbnqjl9o33u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dashtechnologies.inspire",
             "certificate_hash": "0b9cd68c0fc7a598e19f546e0dce2a8387480114"
           }
         },
