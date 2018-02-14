@@ -1,5 +1,8 @@
 # Inspire
 
+
+<img src="https://i.imgur.com/x9obUMd.png" height="150px" width="150px" >
+
 App for BPA NLC 2018. 
 
 ### Prerequisites
@@ -43,6 +46,7 @@ App for BPA NLC 2018.
 
 ## Acknowledgments
 
-* [TVAC Studio](https://www.patreon.com/akshayejh) for some great Tutorials 
+* [TVAC Studio](https://www.patreon.com/akshayejh) for some great Tutorials  
 * [Vladyslav Pohrebniakov](https://play.google.com/store/apps/dev?id=5916021916323754001&hl=en) for twitter feed
 * [Whitney Kvistad](https://www.linkedin.com/in/whitneykvistad) for Ideas and Logistics
+
