@@ -30,7 +30,7 @@ import de.hdodenhof.circleimageview.CircleImageView;
 public class RegisterActivity extends AppCompatActivity {
 
 
-    private CircleImageView mImageBtn;
+
     private EditText mEmail;
     private EditText mDisplayName;
     private EditText mPassword;
@@ -73,7 +73,7 @@ public class RegisterActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         mFirestore = FirebaseFirestore.getInstance();
 
-        mImageBtn = (CircleImageView) findViewById(R.id.register_image_btn);
+
         mEmail = (EditText) findViewById(R.id.register_email);
         mPassword = (EditText) findViewById(R.id.register_password);
         mDisplayName = (EditText) findViewById(R.id.register_name);
@@ -132,7 +132,7 @@ public class RegisterActivity extends AppCompatActivity {
 
                     HashMap<String, String> userMap = new HashMap<>();
                     userMap.put("name", display_name);
-                    userMap.put("status", "Hi there I'm using Lapit Chat App.");
+                    userMap.put("status", "My status");
                     userMap.put("image", "default");
                     userMap.put("thumb_image", "default");
                     userMap.put("device_token", device_token);

@@ -82,6 +82,9 @@ dependencies {
     annotationProcessor 'com.github.bumptech.glide:compiler:4.0.0'
     implementation 'com.google.firebase:firebase-firestore:11.8.0'
 
+
+
+
 }
 
 apply plugin: 'com.google.gms.google-services'

@@ -136,7 +136,11 @@
     <string name="test">Something</string>
 
     <string name="tap_here">Tap here to read
-                            \n another inspirational quote</string>
+                            \n another inspire thought</string>
+
+    <string name="desc">A place to inspire ideas, smiles,
+        /n kindness, and bravery to
+        n/ build-up human resilience</string>
 
     <string name="title_developer_pref">Developer</string>
     <string name="summary_developer_pref">Vladyslav Pohrebniakov</string>
@@ -148,7 +152,7 @@
     <string name="title_look_category_pref">Look</string>
     <string name="summary_about_pref">Get inspired kid</string>
 
-    <string name="no_internet">Is your Internet depressed too? Check its connection.</string>
+    <string name="no_internet">Check your internet connection.</string>
 
     <string name="appwidget_text_loading">Loading…</string>
     <string name="next">Next</string>
